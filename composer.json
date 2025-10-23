@@ -1,0 +1,14 @@
+{
+  "name": "yedomakha_dev/wpps",
+  "description": "WordPress Post Seeder Plugin",
+  "require": {
+    "fakerphp/faker": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPPS\\Core\\": "includes/Core/",
+      "WPPS\\Admin\\": "includes/Admin/",
+      "WPPS\\Generator\\": "includes/Generator/"
+    }
+  }
+}
